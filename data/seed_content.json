@@ -1,0 +1,42 @@
+{
+  "poll_questions": [
+    {
+      "question": "Bạn đang dùng phiên bản WOXBOT nào?",
+      "options": ["AUTO (Tự động 100%)", "½ AUTO (Bán tự động)", "SIGNAL (Tín hiệu)", "Chưa dùng WOXBOT"],
+      "is_anonymous": false
+    },
+    {
+      "question": "Phiên giao dịch bạn trade nhiều nhất?",
+      "options": ["Phiên Á (07:00-15:00)", "Phiên London (15:00-00:00)", "Phiên New York (20:00-05:00)", "Trade cả ngày"],
+      "is_anonymous": false
+    },
+    {
+      "question": "Lý do chính bạn tham gia WOXHUB?",
+      "options": ["Nhận tín hiệu giao dịch", "Học hỏi kiến thức", "Kết nối cộng đồng trader", "Kiếm thu nhập IB"],
+      "is_anonymous": false
+    },
+    {
+      "question": "Cặp tiền/hàng hóa bạn trade nhiều nhất?",
+      "options": ["XAU/USD (Vàng)", "EUR/USD", "GBP/USD", "Cặp khác"],
+      "is_anonymous": false
+    },
+    {
+      "question": "Thời gian bạn dành cho trading mỗi ngày?",
+      "options": ["Dưới 1 tiếng", "1–3 tiếng", "3–6 tiếng", "Trên 6 tiếng"],
+      "is_anonymous": false
+    },
+    {
+      "question": "Bạn có muốn xây dựng thu nhập IB với WOXBAL không?",
+      "options": ["Rất muốn - đang tìm hiểu!", "Muốn nhưng chưa biết cách", "Đang làm rồi", "Chưa quan tâm"],
+      "is_anonymous": false
+    },
+    {
+      "question": "Vốn khởi đầu của bạn khi trade là bao nhiêu?",
+      "options": ["Dưới $200", "$200 – $500", "$500 – $1.000", "Trên $1.000"],
+      "is_anonymous": true
+    }
+  ],
+  "activity_schedule": {
+    "weekly_template": "📅 *LỊCH SINH HOẠT WOXHUB TUẦN NÀY*\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n🌅 *Thứ 2:* Báo cáo ngày + Tín hiệu mở tuần\n📚 *Thứ 3:* Nội dung đào tạo (19:00)\n🗳️ *Thứ 4:* Poll cộng đồng + Tín hiệu trọng điểm\n📖 *Thứ 5:* Nội dung đào tạo (19:00)\n🏆 *Thứ 6:* Tổng kết NFP + Chốt tuần\n📊 *Thứ 7:* Review tuần qua\n🎯 *Chủ nhật:* Lịch tuần mới\n\n💬 Tham gia đầy đủ để nhận điểm thưởng!\n/score để xem điểm tích lũy của bạn"
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+woxhub.db
+updates.json
+*.bat
+*.ps1
+do_deploy*.sh
+deploy*.sh
+deploy_result.json
+payload.json

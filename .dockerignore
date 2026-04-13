@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+woxhub.db
+*.bat
+*.ps1
+updates.json

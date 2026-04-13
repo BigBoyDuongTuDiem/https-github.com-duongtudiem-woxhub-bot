@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/webhook.py", "use": "@vercel/python" },
+    { "src": "api/cron.py",    "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/webhook", "dest": "/api/webhook.py" },
+    { "src": "/cron",    "dest": "/api/cron.py"    },
+    { "src": "/",        "dest": "/api/webhook.py" }
+  ],
+  "crons": [
+    { "path": "/cron?job=morning_brief",     "schedule": "0 1 * * 1-5" },
+    { "path": "/cron?job=daily_digest",      "schedule": "30 1 * * *"  },
+    { "path": "/cron?job=evening_recap",     "schedule": "0 14 * * 1-5"},
+    { "path": "/cron?job=educational",       "schedule": "0 12 * * 2,4"},
+    { "path": "/cron?job=leaderboard",       "schedule": "0 2 * * 1"   },
+    { "path": "/cron?job=activity_schedule", "schedule": "0 3 * * 0"   },
+    { "path": "/cron?job=poll",              "schedule": "0 4 * * 3"   }
+  ]
+}

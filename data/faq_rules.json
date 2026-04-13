@@ -1,0 +1,50 @@
+{
+  "version": "1.1",
+  "rules": [
+    {
+      "keywords": ["bot an toan", "bot co an toan", "an toan khong", "lua dao khong", "co lua dao", "uy tin khong", "co uy tin"],
+      "response_key": "faq_bot_safe",
+      "priority": 10
+    },
+    {
+      "keywords": ["von bao nhieu", "can bao nhieu von", "von toi thieu", "bat dau bao nhieu", "it von", "von nho", "von 100", "von 200", "von 500"],
+      "response_key": "faq_capital",
+      "priority": 9
+    },
+    {
+      "keywords": ["ib la gi", "ib hoat dong", "ib nhu the nao", "introducing broker", "hoa hong ib", "lam ib", "tham gia ib", "ib partner"],
+      "response_key": "faq_ib",
+      "priority": 8
+    },
+    {
+      "keywords": ["winrate", "ty le thang", "chinh xac bao nhieu", "tin hieu chuan bao nhieu", "win rate", "do chinh xac"],
+      "response_key": "faq_winrate",
+      "priority": 7
+    },
+    {
+      "keywords": ["rut tien", "rut nhu the nao", "rut duoc khong", "rut tien mat bao lau", "nap tien", "rut tien the nao"],
+      "response_key": "faq_withdraw",
+      "priority": 7
+    },
+    {
+      "keywords": ["woxbiz gia bao nhieu", "phi woxbiz", "vip bao nhieu", "gia woxbiz", "bao nhieu tien woxbiz", "tham gia woxbiz", "mua woxbiz"],
+      "response_key": "faq_woxbiz",
+      "priority": 9
+    },
+    {
+      "keywords": ["cai dat bot", "huong dan bot", "setup bot", "cai woxbot", "cach dung bot", "dung bot nhu the nao", "bot chay nhu the nao"],
+      "response_key": "faq_setup_bot",
+      "priority": 8
+    },
+    {
+      "keywords": ["spread bao nhieu", "phi giao dich", "phi san", "moi lot bao nhieu", "lot size", "lot bao nhieu"],
+      "response_key": "faq_capital",
+      "priority": 6
+    },
+    {
+      "keywords": ["dang ky san nhu the nao", "mo tai khoan", "mo account", "dang ky exness", "dang ky ic markets", "san nao tot"],
+      "response_key": "faq_setup_bot",
+      "priority": 6
+    }
+  ]
+}
