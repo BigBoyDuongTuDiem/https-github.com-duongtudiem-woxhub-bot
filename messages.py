@@ -608,3 +608,440 @@ FAQ_RESPONSES = {
         "Nhắn admin để được hướng dẫn chi tiết."
     ),
 }
+
+
+# ═══════════════════════════════════════════════════════
+#  SEEDING MỚI — TĂNG TƯƠNG TÁC CỘNG ĐỒNG
+# ═══════════════════════════════════════════════════════
+
+# ── 1. KICK-OFF ĐẦU TUẦN (Thứ 2 / 07:30 VN) ──────────────────────────────────
+KICKOFF_WEEK_MESSAGES = [
+    (
+        "🔥 *KICK-OFF TUẦN MỚI — WOXHUB COMMUNITY!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "📅 Thứ Hai đã đến — Tuần mới, cơ hội mới!\n\n"
+        "🎯 *Mục tiêu tuần này anh em hãy đặt ra:*\n"
+        "   💡 Số lệnh tối đa mỗi ngày?\n"
+        "   💡 R:R mục tiêu cho từng lệnh?\n"
+        "   💡 Vốn tối đa risk mỗi ngày?\n\n"
+        "📊 *Thị trường tuần này cần chú ý:*\n"
+        "• Phiên Á: Tích lũy, ít biến động\n"
+        "• Phiên London: Cơ hội breakout sáng sớm\n"
+        "• Phiên Mỹ: Tin tức quan trọng — cẩn thận!\n\n"
+        "💬 Reply ngay: *Mục tiêu của bạn tuần này là gì?* 👇\n\n"
+        "Chúc cả nhà một tuần giao dịch thành công! 🚀"
+    ),
+    (
+        "⚡ *TUẦN MỚI BẮT ĐẦU — SẴN SÀNG CHƯA?*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Thứ Hai là ngày để *reset* và *set goal* lại!\n\n"
+        "🏆 *3 câu hỏi để bắt đầu tuần đúng cách:*\n"
+        "1️⃣ Tuần trước bạn học được gì?\n"
+        "2️⃣ Sai lầm nào cần tránh tuần này?\n"
+        "3️⃣ 1 điều bạn sẽ làm TỐT HƠN?\n\n"
+        "📈 *Trader giỏi không phải người không sai —\n"
+        "mà là người không sai cùng 1 lỗi 2 lần!*\n\n"
+        "💬 Chia sẻ mục tiêu tuần này của bạn bên dưới nhé! 👇\n\n"
+        "WOXHUB đồng hành cùng bạn! 💪"
+    ),
+    (
+        "🌅 *CHÀO BUỔI SÁNG THỨ HAI — WOXHUB!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "🧠 *Mindset trader tuần này:*\n"
+        "_\"Không phải thị trường quyết định bạn thắng hay thua —\n"
+        "mà chính kỷ luật của bạn mới quyết định điều đó.\"_\n\n"
+        "📋 *Checklist trước khi vào lệnh hôm nay:*\n"
+        "☐ Xem lịch tin tức kinh tế\n"
+        "☐ Xác định vùng hỗ trợ/kháng cự chính\n"
+        "☐ Đặt SL/TP trước khi vào\n"
+        "☐ Tính % vốn risk tối đa\n\n"
+        "💬 *Hôm nay bạn có plan giao dịch chưa?*\n"
+        "Reply ✅ nếu đã sẵn sàng! 👇"
+    ),
+]
+
+# ── 2. NHẮC LIVESTREAM 13H (Hàng ngày / 12:30 VN) ────────────────────────────
+LIVESTREAM_REMINDERS = [
+    (
+        "📡 *LIVESTREAM 13:00 HÔM NAY — ĐỪNG BỎ LỠ!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "🎙️ *WOXBAL TEAM* sẽ livestream *PLAN GIAO DỊCH*\n"
+        "cho buổi chiều/tối hôm nay trong *30 phút nữa!*\n\n"
+        "📊 *Nội dung sẽ phân tích:*\n"
+        "• Xu hướng XAU/USD phiên chiều\n"
+        "• Vùng vào lệnh tiềm năng\n"
+        "• Mức SL/TP khuyến nghị\n\n"
+        "🔔 Bật thông báo nhóm để không bỏ lỡ!\n\n"
+        "Gặp nhau lúc 13:00 anh em nhé! ⏰"
+    ),
+    (
+        "⏰ *CÒN 30 PHÚT NỮA — LIVESTREAM PLAN 13H!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Hôm nay thị trường có gì hot?\n"
+        "🔥 Admin sẽ chia sẻ *nhận định & plan giao dịch*\n"
+        "trực tiếp lúc *13:00* hôm nay!\n\n"
+        "💡 *Chuẩn bị trước:*\n"
+        "• Mở chart XAU/USD\n"
+        "• Note lại các mức giá quan trọng\n"
+        "• Chuẩn bị câu hỏi cho admin!\n\n"
+        "Tham gia để giao dịch có cơ sở hơn! 🎯"
+    ),
+    (
+        "🎯 *NHẮC NHỞ: LIVESTREAM PLAN GIAO DỊCH 13H!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "📌 Hàng ngày lúc *13:00*, WOXBAL TEAM livestream\n"
+        "phân tích thị trường & đưa ra định hướng giao dịch.\n\n"
+        "✅ *Tại sao nên xem?*\n"
+        "• Hiểu rõ context thị trường trước khi vào lệnh\n"
+        "• Học cách phân tích theo phương pháp WOXBAL\n"
+        "• Hỏi trực tiếp — admin trả lời live!\n\n"
+        "Còn 30 phút nữa — sẵn sàng chưa? 🚀"
+    ),
+]
+
+# ── 3. NHẮC LỊCH HỌC (19:00 VN — 1h trước buổi học) ─────────────────────────
+CLASS_REMINDER_T2 = (
+    "🎓 *NHẮC LỊCH HỌC TỐI NAY — THỨ HAI!*\n"
+    "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+    "📚 *TRADER TRAINEE* — Buổi học online\n"
+    "⏰ *Thời gian:* 20:00 tối nay trên Zoom\n\n"
+    "🎯 *Chương trình dành cho:*\n"
+    "Người mới muốn trở thành Trader chuyên nghiệp\n"
+    "trong *30 ngày* với lộ trình bài bản từ WOXDEMY!\n\n"
+    "✅ *Bạn sẽ học được:*\n"
+    "• Nền tảng phân tích kỹ thuật từ cơ bản\n"
+    "• Quản lý vốn & tâm lý giao dịch\n"
+    "• Cách vận hành WOXBOT hiệu quả\n\n"
+    "📌 *Còn 1 tiếng nữa* — chuẩn bị vào học nhé!\n"
+    "Liên hệ admin để nhận link Zoom! 👆"
+)
+
+CLASS_REMINDER_T4 = (
+    "🎓 *NHẮC LỊCH HỌC TỐI NAY — THỨ TƯ!*\n"
+    "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+    "📚 *FINTECH BUSINESS MASTERY* — Buổi học online\n"
+    "⏰ *Thời gian:* 20:00 tối nay trên Zoom\n\n"
+    "🎯 *Chương trình dành cho:*\n"
+    "Ai muốn xây dựng hệ thống kinh doanh Fintech\n"
+    "*1 người vận hành* — tự động hoàn toàn!\n\n"
+    "✅ *Bạn sẽ học được:*\n"
+    "• Mô hình kinh doanh IB tự động\n"
+    "• Xây phễu & hệ thống chăm sóc khách hàng\n"
+    "• Tích hợp AI & Bot vào quy trình kinh doanh\n\n"
+    "📌 *Còn 1 tiếng nữa* — chuẩn bị vào học nhé!\n"
+    "Liên hệ admin để nhận link Zoom! 👆"
+)
+
+CLASS_REMINDER_T6 = (
+    "🎓 *NHẮC LỊCH HỌC TỐI NAY — THỨ SÁU!*\n"
+    "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+    "📚 *FINTECH LEADERSHIP SYSTEM* — Buổi học online\n"
+    "⏰ *Thời gian:* 20:00 tối nay trên Zoom\n\n"
+    "🎯 *Chương trình dành cho:*\n"
+    "Trader muốn bứt phá lên vai trò *nhà lãnh đạo* —\n"
+    "xây đội nhóm & hệ thống thu nhập bền vững!\n\n"
+    "✅ *Bạn sẽ học được:*\n"
+    "• Xây dựng đội nhóm IB hiệu quả\n"
+    "• Leadership & kỹ năng quản lý cộng đồng\n"
+    "• Hệ thống thu nhập thụ động từ Fintech\n\n"
+    "📌 *Còn 1 tiếng nữa* — chuẩn bị vào học nhé!\n"
+    "Liên hệ admin để nhận link Zoom! 👆"
+)
+
+# ── 4. NHẮC OFFLINE CHỦ NHẬT (Chủ Nhật / 12:00 VN — 2h trước) ───────────────
+OFFLINE_REMINDER = (
+    "🤝 *NHẮC OFFLINE WOXBAL HÔM NAY — CHỦ NHẬT!*\n"
+    "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+    "📍 *Offline trao đổi kinh nghiệm*\n"
+    "⏰ *Thời gian:* 14:00 chiều nay\n"
+    "📌 *Địa điểm:* Tp. Hồ Chí Minh\n\n"
+    "🌟 *Đây là cơ hội để:*\n"
+    "• Gặp gỡ anh em trader trực tiếp\n"
+    "• Chia sẻ kinh nghiệm & bài học thực chiến\n"
+    "• Kết nối với WOXBAL TEAM\n"
+    "• Nhận hỗ trợ & tư vấn 1-1\n\n"
+    "💬 Ai tham gia hôm nay? *Reaction hoặc reply nhé!* 👇\n"
+    "Còn 2 tiếng — đừng bỏ lỡ! 🔥"
+)
+
+# ── 5. SPOTLIGHT THÀNH VIÊN (Thứ 4 / 10:00 VN) ───────────────────────────────
+SPOTLIGHT_QUESTIONS = [
+    (
+        "🌟 *SPOTLIGHT THÀNH VIÊN TUẦN NÀY*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Hôm nay WOXHUB muốn lắng nghe *câu chuyện của BẠN!*\n\n"
+        "❓ *Câu hỏi tuần này:*\n"
+        "_\"Điều gì khiến bạn quyết định bắt đầu giao dịch Forex/Vàng?_\n"
+        "_Và bài học đắt giá nhất bạn đã học được là gì?\"_\n\n"
+        "💬 Chia sẻ bên dưới — câu chuyện của bạn có thể\n"
+        "truyền cảm hứng cho hàng trăm người khác! 👇\n\n"
+        "Người chia sẻ hay nhất sẽ được *vinh danh & tặng điểm thưởng!* 🏆"
+    ),
+    (
+        "🌟 *GÓC CHIA SẺ CỘNG ĐỒNG*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Thứ Tư này — mình hỏi thật, anh em trả lời thật! 😄\n\n"
+        "❓ *Câu hỏi:*\n"
+        "_\"Tuần trước bạn có lệnh nào khiến bạn tự hào không?_\n"
+        "_Hoặc lệnh nào bạn rút ra được bài học quý?\"_\n\n"
+        "📊 Đừng ngại kể lệnh thua — trader nào cũng có!\n"
+        "Chia sẻ thật để cùng nhau học hỏi!\n\n"
+        "💬 Reply bên dưới nhé anh em! 👇"
+    ),
+    (
+        "🌟 *HỎI THĂM CỘNG ĐỒNG WOXHUB*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Giữa tuần rồi — cùng check-in nhé! 📋\n\n"
+        "❓ *3 câu hỏi nhanh:*\n"
+        "1️⃣ Tuần này bạn đang trade với tâm lý như thế nào?\n"
+        "   🟢 Tự tin | 🟡 Bình thường | 🔴 Áp lực\n\n"
+        "2️⃣ Kết quả nửa tuần: ➕ Lời hay ➖ Lỗ?\n\n"
+        "3️⃣ Bạn cần hỗ trợ gì từ cộng đồng không?\n\n"
+        "💬 Reply để admin & anh em hỗ trợ bạn! 👇"
+    ),
+    (
+        "🌟 *TRADER SPOTLIGHT — WOXHUB*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Mỗi tuần chúng ta cùng học hỏi từ nhau! 🎓\n\n"
+        "❓ *Câu hỏi tuần này:*\n"
+        "_\"Nếu có thể quay lại ngày đầu mới bắt đầu trade,_\n"
+        "_bạn sẽ nói gì với bản thân mình?\"_\n\n"
+        "💡 Không giới hạn — chia sẻ từ 1 câu đến 1 đoạn!\n"
+        "Câu trả lời của bạn có thể thay đổi hành trình\n"
+        "của ai đó trong nhóm này. 🙏\n\n"
+        "💬 Chia sẻ bên dưới nhé! 👇"
+    ),
+]
+
+# ── 6. CHALLENGE HÀNG TUẦN (Thứ 5 / 09:00 VN) ───────────────────────────────
+WEEKLY_CHALLENGES = [
+    (
+        "🏆 *CHALLENGE TUẦN NÀY — WOXHUB!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "⚔️ *Thử thách: KỶ LUẬT R:R*\n\n"
+        "📋 *Luật chơi:*\n"
+        "• Trong tuần này, mỗi lệnh phải có R:R *tối thiểu 1:2*\n"
+        "• Chụp màn hình lệnh đã đóng kèm R:R\n"
+        "• Gửi screenshot vào nhóm với hashtag *#RR_CHALLENGE*\n\n"
+        "🎁 *Phần thưởng cuối tuần:*\n"
+        "• 🥇 Ai đạt R:R ≥ 1:2 nhiều lệnh nhất: *+100 điểm & danh hiệu*\n"
+        "• 🥈 Top 2-3: *+50 điểm*\n\n"
+        "Bắt đầu ngay từ hôm nay! Ai tham gia? 🙋‍♂️\n"
+        "Reply *'Tôi'* để đăng ký! 👇"
+    ),
+    (
+        "🏆 *CHALLENGE TUẦN NÀY — WOXHUB!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "⚔️ *Thử thách: KHÔNG FOMO 5 NGÀY*\n\n"
+        "📋 *Luật chơi:*\n"
+        "• Không vào lệnh khi chưa có setup rõ ràng\n"
+        "• Không chase lệnh khi đã miss entry\n"
+        "• Cuối ngày viết 3 dòng nhật ký giao dịch\n"
+        "• Gửi nhật ký vào nhóm với hashtag *#NO_FOMO*\n\n"
+        "🎁 *Phần thưởng:*\n"
+        "• Ai duy trì đủ 5 ngày: Huy hiệu *'Kỷ luật thép'* 🛡️\n"
+        "• Bình chọn nhật ký hay nhất: *+100 điểm*\n\n"
+        "Thử thách bắt đầu từ HÔM NAY! Tham gia không? 🙋‍♂️"
+    ),
+    (
+        "🏆 *CHALLENGE TUẦN NÀY — WOXHUB!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "⚔️ *Thử thách: PHÂN TÍCH CHART TUẦN*\n\n"
+        "📋 *Luật chơi:*\n"
+        "• Chọn 1 cặp tiền/vàng bạn thích\n"
+        "• Phân tích xu hướng và đưa ra dự báo cho tuần\n"
+        "• Chụp chart + ghi chú vào nhóm hashtag *#WEEK_ANALYSIS*\n"
+        "• Cuối tuần so sánh dự báo vs thực tế\n\n"
+        "🎁 *Phần thưởng:*\n"
+        "• Phân tích chính xác nhất: *+80 điểm & được review bởi admin*\n"
+        "• Mọi người tham gia: *+20 điểm* cho effort!\n\n"
+        "Ai sẵn sàng thách thức bản thân? 💪\n"
+        "Reply hashtag tên cặp bạn chọn bên dưới! 👇"
+    ),
+    (
+        "🏆 *CHALLENGE TUẦN NÀY — WOXHUB!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "⚔️ *Thử thách: GIỚI THIỆU & WIN*\n\n"
+        "📋 *Luật chơi:*\n"
+        "• Giới thiệu bạn bè vào WOXHUB tuần này\n"
+        "• Người được giới thiệu cần xác nhận nội quy\n"
+        "• Dùng link /myref để tracking\n\n"
+        "🎁 *Phần thưởng:*\n"
+        "• 🥇 Giới thiệu nhiều nhất: *Thưởng đặc biệt từ WOXBAL*\n"
+        "• Mỗi người giới thiệu thành công: *+25 điểm tự động*\n"
+        "• Top 3 cuối tuần: *Được vinh danh trên nhóm* 🌟\n\n"
+        "Lấy link giới thiệu: /myref\n"
+        "Bắt đầu ngay! 🚀"
+    ),
+]
+
+# ── 7. MINI CONTEST / ĐỌC VỊ THỊ TRƯỜNG (Thứ 5 / 20:00 VN) ──────────────────
+MINI_CONTEST_MESSAGES = [
+    (
+        "🎯 *MINI CONTEST: ĐỌC VỊ VÀNG TUẦN TỚI!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "📊 Ai có khả năng dự đoán thị trường tốt nhất?\n"
+        "Hãy thể hiện! Tuần tới *XAU/USD* sẽ:\n\n"
+        "🗳️ *Vote bên dưới hoặc reply:*\n"
+        "📈 A — *Tăng* (Bullish)\n"
+        "📉 B — *Giảm* (Bearish)\n"
+        "↔️ C — *Sideway* (Tích lũy)\n\n"
+        "🎁 *Ai đoán đúng + có lý do thuyết phục:*\n"
+        "→ *+50 điểm* & được admin review phân tích! 🏆\n\n"
+        "Kèm phân tích ngắn vào reply để được điểm cao nhé! 📝"
+    ),
+    (
+        "🎯 *MINI CONTEST: AI ĐOÁN ĐÚNG XAU?*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Cuối tuần này, WOXHUB tổ chức mini contest vui!\n\n"
+        "❓ *Câu hỏi:* XAU/USD tuần tới sẽ đóng cửa:\n"
+        "   A — Cao hơn tuần này 📈\n"
+        "   B — Thấp hơn tuần này 📉\n"
+        "   C — Gần như tương đương ↔️\n\n"
+        "📝 *Cách tham gia:* Reply A/B/C + lý do ngắn\n\n"
+        "🎁 *Top 3 đoán đúng & lý do hay nhất:*\n"
+        "• +50 điểm mỗi người\n"
+        "• Được vinh danh thứ Hai tuần sau 🏆\n\n"
+        "Kết quả công bố thứ Hai tới! Vote ngay! 🗳️"
+    ),
+]
+
+# ── 8. NỘI DUNG NHẸ CUỐI TUẦN (Thứ 7 / 09:00 VN) ────────────────────────────
+WEEKEND_VIBE_MESSAGES = [
+    (
+        "☕ *CHÀO BUỔI SÁNG THỨ BẢY — WOXHUB!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Cuối tuần rồi — thư giãn một chút nhé anh em! 😊\n\n"
+        "📊 *Nhìn lại tuần này:*\n"
+        "Bạn cảm thấy thế nào về kết quả giao dịch tuần này?\n\n"
+        "   😄 Hài lòng — tuần tốt!\n"
+        "   😐 Bình thường — hòa vốn\n"
+        "   😤 Chưa ổn — cần cải thiện\n\n"
+        "💬 Reply cảm xúc của bạn + 1 điều bạn học được!\n\n"
+        "🌟 Dù kết quả thế nào — bạn đang tiến bộ mỗi ngày!\n"
+        "Nghỉ ngơi và nạp năng lượng cho tuần tới nhé! 💪"
+    ),
+    (
+        "🌤️ *THỨ BẢY AN LÀNH — WOXHUB COMMUNITY!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Weekend là thời gian để *học, review và tái nạp năng lượng!*\n\n"
+        "📚 *Gợi ý cho cuối tuần:*\n"
+        "1️⃣ Review lại toàn bộ lệnh tuần này\n"
+        "2️⃣ Đọc lại 1 kiến thức trading bạn còn yếu\n"
+        "3️⃣ Xem lại livestream plan của WOXBAL\n"
+        "4️⃣ Nghỉ ngơi — không cần trade T7 CN!\n\n"
+        "💬 Hôm nay bạn định làm gì?\n"
+        "Chia sẻ kế hoạch cuối tuần bên dưới! 👇"
+    ),
+    (
+        "🏖️ *WEEKEND VIBES — WOXHUB!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Thứ Bảy — thị trường Forex đóng cửa,\n"
+        "nhưng não bộ trader không bao giờ nghỉ! 😄\n\n"
+        "🎯 *Hôm nay hỏi thăm anh em một câu:*\n"
+        "_\"Ngoài trading, bạn có sở thích hay đam mê gì khác không?\"_\n\n"
+        "Vì một trader cân bằng cuộc sống sẽ trade tốt hơn!\n"
+        "Đừng để trading chiếm 100% tâm trí bạn nhé 😊\n\n"
+        "💬 Chia sẻ hobby của bạn bên dưới — mình muốn biết! 👇"
+    ),
+]
+
+# ── 9. CHUẨN BỊ TUẦN MỚI (Chủ Nhật / 08:00 VN) ──────────────────────────────
+SUNDAY_PREP_MESSAGES = [
+    (
+        "🌅 *CHÀO CHỦ NHẬT — WOXHUB!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Chủ Nhật là ngày *tổng kết & chuẩn bị* tốt nhất!\n\n"
+        "📋 *Checklist trader cuối tuần:*\n"
+        "☐ Review journal giao dịch cả tuần\n"
+        "☐ Tính win rate & P&L tuần này\n"
+        "☐ Xác định vùng giá quan trọng tuần tới\n"
+        "☐ Xem lịch kinh tế tuần sau (investing.com)\n"
+        "☐ Set mental target cho tuần tới\n\n"
+        "📌 *Nhắc nhở:* Offline WOXBAL hôm nay 14h tại HCM!\n"
+        "Ai tham gia? Reply bên dưới! 🙋‍♂️\n\n"
+        "Chúc cả nhà một Chủ Nhật bình yên! ☀️"
+    ),
+    (
+        "🔄 *RECAP TUẦN & SẴN SÀNG CHO TUẦN MỚI!*\n"
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
+        "Trader chuyên nghiệp luôn dành Chủ Nhật để *reset!*\n\n"
+        "💡 *3 việc quan trọng nhất hôm nay:*\n"
+        "1️⃣ *Review* — Tuần này bạn làm tốt gì?\n"
+        "2️⃣ *Learn* — Bài học nào cần nhớ cho tuần sau?\n"
+        "3️⃣ *Plan* — Mục tiêu cụ thể cho tuần tới?\n\n"
+        "📊 *Thị trường tuần tới:* Hãy chú ý lịch tin tức\n"
+        "kinh tế quan trọng trên investing.com nhé!\n\n"
+        "💬 Share 1 insight từ tuần này bên dưới! 👇\n"
+        "Kiến thức chia sẻ là kiến thức nhân đôi! 🌟"
+    ),
+]
+
+# ── 10. CÂU HỎI TƯƠNG TÁC HÀNG NGÀY (T2-T6 / 10:30 VN) ─────────────────────
+DAILY_QUESTIONS = [
+    (
+        "💬 *HỎI NHANH — WOXHUB!*\n\n"
+        "Hôm nay bạn có vào lệnh không?\n\n"
+        "📈 Có — đang theo dõi setup\n"
+        "⏳ Chưa — chờ cơ hội tốt hơn\n"
+        "❌ Không — hôm nay nghỉ trade\n\n"
+        "Reply để mình biết nhé! Giao dịch có kế hoạch! 🎯"
+    ),
+    (
+        "💬 *CHIA SẺ NHANH — WOXHUB!*\n\n"
+        "Cảm xúc giao dịch của bạn hôm nay?\n\n"
+        "😤 Hưng phấn — muốn vào nhiều lệnh\n"
+        "😌 Bình tĩnh — chỉ vào khi có setup\n"
+        "😰 Áp lực — đang cần gỡ lỗ\n\n"
+        "Dù cảm xúc nào — *kỷ luật vẫn là số 1!* 💪\n"
+        "Reply bên dưới nhé! 👇"
+    ),
+    (
+        "🎓 *KIẾN THỨC NHANH — TEST BẢN THÂN!*\n\n"
+        "Câu hỏi hôm nay:\n"
+        "_\"Bạn thường dùng chỉ báo nào để xác nhận xu hướng?\"_\n\n"
+        "📊 MA (Moving Average)\n"
+        "📊 RSI / MACD\n"
+        "📊 Price Action thuần\n"
+        "📊 Kết hợp nhiều chỉ báo\n\n"
+        "Reply & chia sẻ lý do — cùng học hỏi nhau! 👇"
+    ),
+    (
+        "💬 *CHECK-IN BUỔI SÁNG — WOXHUB!*\n\n"
+        "Chào buổi sáng! Hôm nay bạn đã:\n\n"
+        "☐ Xem lịch tin tức kinh tế chưa?\n"
+        "☐ Xác định xu hướng chính chưa?\n"
+        "☐ Set SL/TP trước khi vào lệnh chưa?\n\n"
+        "3 cái tick xanh = Trader có kỷ luật! ✅✅✅\n"
+        "Bạn đang ở mức mấy tick? Reply nhé! 👇"
+    ),
+    (
+        "🔥 *ĐỘNG LỰC ĐẦU NGÀY — WOXHUB!*\n\n"
+        "_\"Thị trường không quan tâm bạn cảm thấy thế nào.\n"
+        "Nhưng kỷ luật của bạn sẽ quyết định bạn kiếm được\n"
+        "bao nhiêu từ thị trường đó.\"_\n\n"
+        "💪 Giao dịch kỷ luật hôm nay!\n"
+        "Ai đã ready? Reply '💪' để bắt đầu! 👇"
+    ),
+    (
+        "📊 *HỎI THĂM CỘNG ĐỒNG — WOXHUB!*\n\n"
+        "Mọi người đang trade cặp nào nhiều nhất?\n\n"
+        "🥇 XAU/USD (Vàng)\n"
+        "🥈 EUR/USD\n"
+        "🥉 GBP/USD\n"
+        "🎯 Khác — reply tên cặp!\n\n"
+        "Vote bên dưới để mình thống kê nhé! 📈"
+    ),
+    (
+        "💡 *TIP TRADING NGÀY HÔM NAY:*\n\n"
+        "\"Đừng bao giờ risk nhiều hơn *2% vốn* cho 1 lệnh.\n"
+        "Dù bạn chắc chắn đến đâu — thị trường luôn có thể\n"
+        "làm điều bất ngờ.\"\n\n"
+        "✅ Rule 2% giúp bạn:\n"
+        "• Tồn tại lâu dài trong thị trường\n"
+        "• Không bị xóa tài khoản sau 1 lệnh tệ\n"
+        "• Giao dịch không bị chi phối bởi cảm xúc\n\n"
+        "Bạn đang risk bao nhiêu % mỗi lệnh? Chia sẻ nhé! 👇"
+    ),
+]
+}
